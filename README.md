@@ -4,7 +4,7 @@ This repository contains the source code for our paper:
 
 [ Revisiting Document Image Dewarping by Grid Regularization ]()
 CVPR 2022
-
+<img src = "data/pipeline.png">
 ## Required Data
 
  To evaluate/train RAFT, you will need to download the required datasets. 
@@ -33,7 +33,7 @@ CVPR 2022
 
 ## Inference
 
-Download the pretrained models from [One Drive](https://1drv.ms/u/s!AlagB370HkjxgQrT63yfcAPy9M3n?e=PXaFNQ), and put them to `pkl/`.You can get a result using  `predict.py`:
+Download the pretrained models from [One Drive](https://1drv.ms/u/s!AlagB370HkjxgQrT63yfcAPy9M3n?e=PXaFNQ), and put them to `pkl/`. You can get a result using  `predict.py`:
 
 ```
 python predict.py -crop data/crop --docunet pkl/docunet.pth --unet pkl/unet.pkl
@@ -49,7 +49,7 @@ python predict.py -crop data/crop --docunet pkl/docunet.pth --unet pkl/unet.pkl
   cd result;python test.py
   ```
 
-- We had used the Tesseract (v4.0.0-beta.1) default configuration for evaluation with PyTesseract (v0.3.8).
+- We use the Tesseract (v4.0.0-beta.1) default configuration for evaluation with PyTesseract (v0.3.8).
 
 ## Training
 
