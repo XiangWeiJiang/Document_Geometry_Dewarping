@@ -28,7 +28,14 @@ CVPR 2022
     ├── textline
         ├── publaynet
         	├── train
-        	├── mask
+        	├── mask        
+├── result
+    ├── grid
+    ├── tfi
+    ├── tps
+    ├── text_line
+    ├── text_line
+    ├── vertical_line
 ```
 
 ## Inference
