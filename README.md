@@ -16,7 +16,12 @@ CVPR 2022
 ├── data
 	├── crop
 ├── result
-	├── scan
+    ├── grid
+    ├── tfi
+    ├── tps
+    ├── text_line
+    ├── text_line
+    ├── vertical_line
 ├── datasets
     ├── doc3d
     	├── img
@@ -29,13 +34,6 @@ CVPR 2022
         ├── publaynet
         	├── train
         	├── mask        
-├── result
-    ├── grid
-    ├── tfi
-    ├── tps
-    ├── text_line
-    ├── text_line
-    ├── vertical_line
 ```
 
 ## Inference
