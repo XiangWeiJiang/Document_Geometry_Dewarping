@@ -10,7 +10,7 @@ CVPR 2022
  To evaluate/train RAFT, you will need to download the required datasets. 
 
 - [doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset)
--  [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html)
+- [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html)
 
 ```
 ├── data
@@ -43,7 +43,7 @@ python predict.py -crop data/crop --docunet pkl/docunet.pth --unet pkl/unet.pkl
 
 - We use the same evaluation code as [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset on MS-SSIM (multi-scale SSIM) and LD (Local Distortion) based on Matlab 2018b.
 
-- We use the same evaluation code as [DewarpNet]( [GitHub - cvlab-stonybrook/DewarpNet: Code for the paper "DewarpNet: Single-Image Document Unwarping With Stacked 3D and 2D Regression Networks" (ICCV '19)](https://github.com/cvlab-stonybrook/DewarpNet) ) on CER (Chaacter Error Rate) and ED (Edit Distance)  based on Matlab 2018b.
+- We use the same evaluation code as [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet)) on CER (Chaacter Error Rate) and ED (Edit Distance)  based on Matlab 2018b.
 
   ```
   cd result;python test.py
