@@ -41,7 +41,7 @@ CVPR 2022
 Download the pretrained models from [One Drive](https://1drv.ms/u/s!AlagB370HkjxgQrT63yfcAPy9M3n?e=PXaFNQ), and put them to `pkl/`. You can get a result using  `predict.py`:
 
 ```
-python predict.py -crop data/crop --docunet pkl/docunet.pth --unet pkl/unet.pkl
+python predict.py --crop data/crop --docunet pkl/docunet.pth --unet pkl/unet.pkl
 ```
 
 ## Evalutaion
