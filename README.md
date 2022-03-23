@@ -7,7 +7,7 @@ CVPR 2022
 <img src = "data/pipeline.png">
 ## Required Data
 
- To evaluate/train RAFT, you will need to download the required datasets. 
+ To evaluate/train our model, you will need to download the required datasets. 
 
 - [doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset)
 - [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html)
