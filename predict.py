@@ -13,7 +13,6 @@ from utils.line1 import line1
 
 from net import DocUNet,UNet
 import cv2
-import time
 
 
 def unwarp(img, bm):
@@ -102,7 +101,6 @@ if __name__ == "__main__":
     b_size = (128,128)
     t_size = (512,512)
     for img_name in tqdm.tqdm(os.listdir(crop)):
-        begin = time.time()
         img = cv2.imread(crop+img_name)
         img_b = cv2.resize(img,b_size)/255
         img_t = cv2.resize(img,t_size)/255
