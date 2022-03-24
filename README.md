@@ -1,8 +1,9 @@
-####  Revisiting Document Image Dewarping by Grid Regularization 
+##  Revisiting Document Image Dewarping by Grid Regularization 
 
 This repository contains the source code for our paper:
 
 [ Revisiting Document Image Dewarping by Grid Regularization ]()
+
 CVPR 2022
 <img src = "data/pipeline.png">
 ## Required Data
