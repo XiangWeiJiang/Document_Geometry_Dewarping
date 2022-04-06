@@ -50,7 +50,7 @@ python predict.py --crop data/crop --method grid --docunet pkl/docunet.pth --une
 
 - We use the same evaluation code as [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset on MS-SSIM (multi-scale SSIM) and LD (Local Distortion) based on Matlab 2018b (detail in test.m).
 
-- We use the same evaluation code as [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet) on CER (Chaacter Error Rate) and ED (Edit Distance)  based on Matlab 2018b. 
+- We use the same evaluation code as [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet) on CER (Chaacter Error Rate) and ED (Edit Distance). 
 
   ```
   cd result;python test.py
