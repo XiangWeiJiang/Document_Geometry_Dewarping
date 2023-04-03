@@ -8,7 +8,7 @@ with open("ocr_files.txt","r") as f:
 print(len(name))
 
 import json
-f = open('tess_gt.json', 'r')
+f = open('test_gt.json', 'r')
 
 content = f.read()
 b = json.loads(content)
